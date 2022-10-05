@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./IMG/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <title>IPhone</title>
+</head>
+<body>
+    <header>
+        <nav class="navegation">
+            <a href="#"><img src="./IMG/logo.png" alt="" class="logo"></a>
+            <ul>
+                <li><a href="#">Mac</a></li>
+                <li><a href="#">IPad</a></li>
+                <li><a href="#" class="check">IPhone</a></li>
+                <li><a href="#">Watch</a></li>
+                <li><a href="#">AirPods</a></li>
+                <li><a href="#">Só na Apple</a></li>
+                <li><a href="#">Suporte</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="circulo"></div>
+            <div class="main-text">
+                <img src="./IMG/iphone13.png" alt="">
+                <h3>Seu novo super poder.</h3>
+                <p>Chip com velocidade impressionante. Um aumento notavel de duraçao de bateria. <br>Este é o novo IPhone 13.</p>
+                <h6>A partir de R$ 6.599</h6>
+                <a href="#" class="btn">Comprar</a>
+                <div class="text">
+                   <h5>Escolha sua cor favorita:</h5>
+                </div>
+                <div class="content">
+                    <span id="green" onclick="mudaCor('./IMG/green.png')"></span>
+                    <span id="pink" onclick="mudaCor('./IMG/pink.png')"></span>
+                    <span id="blue" onclick="mudaCor('./IMG/blue.png')"></span>
+                    <span id="black" onclick="mudaCor('./IMG/black.png')"></span>
+                    <span id="white" onclick="mudaCor('./IMG/white.png')"></span>
+                    <span id="red" onclick="mudaCor('./IMG/red.png')"></span>
+                </div>
+            </div>
+
+            <div class="main-img">
+                <img src="./IMG/green.png" alt="Imagem do Iphone " id="phone">
+            </div>
+
+        </section>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
